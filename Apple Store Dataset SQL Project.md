@@ -37,7 +37,7 @@ SELECT * FROM appleStore_description4
 ```
 SELECT * FROM applestore_description_combined
 ```
-![](/1a.png)<!-- -->
+![](images/1a.png)<!-- -->
 
 ### 3. I will check the # of unique apps in both tables 
 ```
@@ -47,7 +47,7 @@ FROM AppleStore
 SELECT COUNT(DISTINCT id) AS Unique_app_ids
 FROM applestore_description_combined
 ```
-![](/2b2.png)<!-- -->
+![](images/2b2.png)<!-- -->
 ### 4. Check for any missing values in key fields
 ```
 SELECT COUNT(*) AS missing_values
@@ -58,7 +58,7 @@ SELECT COUNT(*) AS missing_values
 FROM applestore_description_combined
 WHERE app_desc is NULL
 ```
-![](/3b.png)<!-- -->
+![](images/3b.png)<!-- -->
 
 ### 5. Find out # of apps per genre ordered by most popular genre
 ```
@@ -67,7 +67,7 @@ FROM AppleStore
 GROUP BY 1 
 ORDER BY 2 DESC
 ```
-![](/4a.png)<!-- -->
+![](images/4a.png)<!-- -->
 ### 6. Get overview of apps ratings 
 ```
 SELECT min(user_rating) AS min_rating,
@@ -75,7 +75,7 @@ SELECT min(user_rating) AS min_rating,
        avg(user_rating) AS avg_rating
 FROM AppleStore
 ```
-![](/5a.png)<!-- -->
+![](images/5a.png)<!-- -->
 
 ### 7. I will add a round function to avg. rating to two decimals to make it more readable.
 ```
@@ -84,7 +84,7 @@ SELECT min(user_rating) AS min_rating,
        round(avg(user_rating),2) AS avg_rating
 FROM AppleStore
 ```
-![](/6a.png)<!-- -->
+![](images/6a.png)<!-- -->
 
 ### 8. Determine whether paid apps have higher ratings than free apps
 ```
@@ -96,7 +96,7 @@ SELECT CASE
 FROM AppleStore
 GROUP BY 1
 ```
-![](/7a.png)<!-- -->
+![](images/7a.png)<!-- -->
 
 ### 9. Check if apps with more supported languages have higher ratings
 ```
@@ -110,7 +110,7 @@ FROM AppleStore
 GROUP BY 1
 ORDER BY 2 DESC
 ```
-![](/8a.png)<!-- -->`
+![](images/8a.png)<!-- -->`
 
 ### 10. Top 10 genres with highest rating
 ```
@@ -121,7 +121,7 @@ GROUP BY 1
 ORDER BY 2 DESC
 LIMIT 10
 ```
-![](/9a.png)<!-- -->
+![](images/9a.png)<!-- -->
 
 ### 11.Top 10 genres with lowest rating
 ```
@@ -132,7 +132,7 @@ GROUP BY 1
 ORDER BY 2 ASC
 LIMIT 10
 ```
-![](/10a.png)<!-- -->
+![](images/10a.png)<!-- -->
 
 ### 12. Check if there is a correlation between length of app desc. and user rating.
 ```
@@ -148,7 +148,7 @@ ON a.id=b.id
 GROUP BY 1
 ORDER BY 2 DESC
 ```
-![](/11a.png)<!-- -->
+![](images/11a.png)<!-- -->
 
 ### 13. Check the top-rated apps for each genre
 ```
@@ -167,7 +167,7 @@ FROM (
  WHERE
  a.rank=1
 ```
-![](/12a.png)<!-- -->
+![](images/12a.png)<!-- -->
 
 ### 14. Checking to see the average price of each app
 ```
@@ -175,7 +175,7 @@ SELECT (ROUND(avg(price),2)||' '||currency) as avg_price,
        ROUND(avg(user_rating),2) AS avg_user_rating
 FROM AppleStore
 ```
-![](/13a.png)<!-- -->
+![](images/13a.png)<!-- -->
 
 ## Final Recommendations
 1. The games category is the most popular having almost 6 times more than the 2nd most popular which is entertainment. This suggests that the category is over saturated but also suggests high user demand. This option would be a safe option to get high user engagement due to high user demand in category.
