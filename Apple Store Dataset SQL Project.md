@@ -4,11 +4,11 @@ By: Steven Nguyen
 
 ## Introduction
 
-#### In this project I will use SQL Lite to explore and analyze data and provide insights to the stakeholder.
+In this project I will use SQL Lite to explore and analyze data and provide insights to the stakeholder.
 
 ## Objective
 
-#### An aspiring developer wants to develop apps on the Apple App Store. He needs data driven insights to decide which app to build. To deliver data driven insights to my stakeholder I will answer questions like:
+An aspiring developer aims to create apps for the Apple App Store and seeks data-driven insights to determine which app to build. To provide valuable insights to my stakeholder, I will address questions such as:
 	1.What App Categories are the most popular?
 	2.What price should the stakeholder set for his app?
 	3.How Can he maximize users rating?
@@ -178,10 +178,10 @@ FROM AppleStore
 ![](images/13a.png)<!-- -->
 
 ## Final Recommendations
-1. The games category is the most popular having almost 6 times more than the 2nd most popular which is entertainment. This suggests that the category is over saturated but also suggests high user demand. This option would be a safe option to get high user engagement due to high user demand in category.
-2. When Jerry develops an App he should aim to have 10 to 30 languages as these apps have better ratings.
-3. There is an opportunity in finance and catalogs categories as they have the lowest user ratings. This suggest that the apps are not meeting the users need and if Jerry is able to meet the users need there is a potential of high user_ratings and market penetration
-4. Jerry should not make his app free but set a price as apps that are not free having better ratings
-5. Jerry should make Apps with longer description as they have better ratings as there is a positive correlation between the two. Which means that users like to read what the app is about before they download.
-6. The average rating of all the apps are 3.5 so Jerry should aim for a user rating above 3.5 to stand out from the crowd.
-7. The average price of an app is 1.73 USD Jerry should set his app price within this range.
+* The Games category is the most popular, with nearly 6 times more popularity than the second most popular category, Entertainment. This suggests that the category may be over-saturated, but it also indicates a high user demand. Developing an app in this category could be a safe option to achieve high user engagement due to the substantial demand.
+* When Jerry develops an app, he should aim to support 10 to 30 languages, as apps with this level of language support tend to receive better ratings.
+* There are opportunities in the Finance and Catalogs categories, as they currently have the lowest user ratings. This indicates that apps in these categories are not meeting users' needs. If Jerry can address those needs effectively, there is potential for high user ratings and market penetration.
+* Jerry should not make his app free; instead, he should set a price, as apps that are not free tend to have better ratings.
+* To improve ratings, Jerry should create apps with longer descriptions, as there is a positive correlation between longer descriptions and better ratings. This suggests that users prefer to read more about the app before deciding to download it.
+* The average rating of all apps is 3.5, so Jerry should aim for a user rating above 3.5 to stand out from the crowd.
+* The average price of an app is $1.73 USD. Jerry should consider setting his app's price within this range.
