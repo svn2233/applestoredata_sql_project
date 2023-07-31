@@ -3,16 +3,15 @@
 By: Steven Nguyen
 
 ## Introduction
-
-In this project I will use SQL Lite to explore and analyze data and provide insights to the stakeholder.
+In this project I will use SQL Lite to explore and analyze data and provide insights to the stakeholder. The dataset is found on Kaggle a website that offers free public datasets for all.
 
 ## Objective
-
 An aspiring developer aims to create apps for the Apple App Store and seeks data-driven insights to determine which app to build. To provide valuable insights to my stakeholder, I will address questions such as:
-	1.What App Categories are the most popular?
-	2.What price should the stakeholder set for his app?
-	3.How Can he maximize users rating?
-	4.Is there any trends that is seen in the database?
+	
+ 	1. What App Categories are the most popular?
+	2. What price should the stakeholder set for his app?
+	3. How Can he maximize users rating?
+	4. Is there any trends that is seen in the database?
 
 ## Stakeholders
 
